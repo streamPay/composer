@@ -12,7 +12,7 @@ export default function handler(
     res.status(200).json({ 
       type: 'form',
       title: 'Banyan',
-      url: 'http://banyan.pages.dev', // make sure this is your public URL e.g. http://localhost:3000 for local testing
+      url: 'https://composer-kr8o.vercel.app/', // make sure this is your public URL e.g. http://localhost:3000 for local testing
     });
   } else if (req.method === 'GET') {
     res.status(200).json({
